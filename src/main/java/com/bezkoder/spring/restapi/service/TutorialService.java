@@ -6,7 +6,9 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import com.bezkoder.spring.restapi.model.Tutorial;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 
+@EnableWebSecurity
 @Service
 public class TutorialService {
 
